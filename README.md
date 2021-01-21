@@ -1,18 +1,18 @@
 # :page_facing_up: NodeScraping
-### Example of Web Scraping with Node.js :fire:
+### Exemplo de Web Scraping com Node.js :fire:
 
-#### In this project, we scrape the Google search wikipedia result :bookmark_tabs:
+#### Este repositório, tem como objetivo pegar a informação da Wikipédia sobre um termo em uma pesquisa do Google :bookmark_tabs:
 
 ![](./example/example.gif)
 
 
 
-# :computer: Installing
+# :computer: Instalação
 
-#### 1. Install Dependencies:
+#### 1. Instale as seguintes dependências:
 - Jsdom | ```npm i jsdom```
 - File get contents | ```npm i file-get-contents```
 
-#### 2. Start application
+#### 2. Inicie a aplicação
 
 ```node src/app.js```
