@@ -1,7 +1,7 @@
 # :page_facing_up: NodeScraping
 ### Example of Web Scraping with Node.js :fire:
 
-#### In this project, we scrape the first Google search result :bookmark_tabs:
+#### In this project, we scrape the Google search wikipedia result :bookmark_tabs:
 
 ![](https://sirv.sirv.com/website/HELLO.gif?scale.option=fill&scale.width=312&scale.height=234)
 

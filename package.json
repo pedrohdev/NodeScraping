@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "file-get-contents": "^1.0.0",
+    "jsdom": "^16.4.0"
+  }
+}
