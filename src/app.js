@@ -8,14 +8,9 @@ const rl = readline.createInterface({
 });
 
 const app = {
-    content: '',
     async getData(search){
         const page = await fileGetContents(`https://www.google.com/search?q=${search}`)
-        if(!this.filter(page)){
-            throw 'Undefined term!'
-        }else{
-            return this.filter(page)
-        }
+        return this.filter(page)
     },
     async filter(page){
 
@@ -42,7 +37,11 @@ const app = {
 
 rl.question("What are you thinking?\n", function(search) {
     app.getData(search).then((result) => {
-        console.log(result)
+        if(result == undefined){
+            console.log('\033[0;31mThere is no information in the wikipedia about the term\033[0m')
+        }else{
+            console.log(result)
+        }
         rl.close()
     }).catch((err) => {
         console.log(err)
